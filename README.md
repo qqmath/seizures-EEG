@@ -1,4 +1,4 @@
-# README for EEG Seizure Prediction Flask App
+# EEG Seizure Prediction Flask App
 
 ## Project Overview
 This Flask web application is designed to predict epileptic seizures using EEG (Electroencephalogram) data. It uses a Python backend with Flask to create an interactive platform where users can input EEG data and receive seizure predictions.
@@ -44,16 +44,5 @@ This Flask web application is designed to predict epileptic seizures using EEG (
 - The app visualizes the EEG signal for the specified index and uses the predictive model to assess seizure risk.
 - The results, including the EEG signal plot and prediction, are displayed on the web page.
 
-## Known Limitations
-- The seizure prediction model needs to be defined in `model.py`.
-- The app currently assumes the input is an index of the CSV file, which may not be intuitive for all users.
-
-## License
-- Specify your licensing details here.
-
-## Contributions
-- Contributions to improve the app or model are welcome. Please reach out or submit a pull request on GitHub.
-
----
-
-Note: This README is based on the provided code snippet. Adjustments may be necessary to align with the actual implementation and features of your project.
+## Thank you
+- Pianalytix for creating their Data Science Bundle course.
